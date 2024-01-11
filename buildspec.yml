@@ -15,4 +15,5 @@ phases:
      - echo Configuring nginx    
 artifacts:
   files:
-   - /var/www/html/index.html
+   - '**/*'
+  name: mydemo-app
